@@ -8,6 +8,7 @@ Desenvolva um pequeno programa que crie documentos e salve em uma coleção e si
 * Agora repita a consulta anterior retornando apenas o campo val1 (utilize projeção para remover o _id e val2). O que ocorre?
 * Insira mais 1 milhão de registros e meça o tempo de inserção comparando com o valor obtido antes do índice.
 ### Resultado
+Foi inserido 4 milhões de dados em lotes de 10 mil.
 ```
 Conectado ao servidor
 
@@ -31,4 +32,3 @@ Criando índice ...
 Iniciando 'Inserção de dados com indexação' ...
 -> 'Inserção de dados com indexação' executado em 1.08 min
 ```
-Foi inserido 4 milhões de dados em lotes de 10 mil. Percebe-se que a consulta a dados indexados tem uma ligeira
